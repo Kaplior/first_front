@@ -1,0 +1,102 @@
+body{
+    font-size: 12px;
+    font-family: 'Mukta', sans-serif;
+    line-break: 1.6;
+    margin: 0;
+    color: #fff;
+}
+h1,h2.h3,h4,h5,h6{
+    margin: 0;
+}
+
+/*container*/
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/*intro*/
+
+.intro{
+    width: 100%;
+    height: 100vh;
+
+    background: url("../image/laptop.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: 100%;
+}
+
+
+/*Header*/
+
+.header{
+    padding-top: 30px;
+
+    width: 100%;
+
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+    text-shadow:
+    0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px rgb(255, 51, 0),
+    0 0 80px rgb(255, 51, 0),
+    0 0 90px rgb(255, 51, 0),
+    0 0 100px rgb(255, 51, 0),
+    0 0 150px rgb(255, 51, 0);
+}
+
+
+/*Navigation*/
+
+.nav{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 15px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color:#fff;
+    text-shadow:
+    0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px rgb(255, 51, 0),
+    0 0 80px rgb(255, 51, 0),
+    0 0 90px rgb(255, 51, 0),
+    0 0 100px rgb(255, 51, 0),
+    0 0 150px rgb(255, 51, 0);
+    transition:  .1s linear;;
+}
+.nav__link:hover:after{
+    opacity: 1;
+}
